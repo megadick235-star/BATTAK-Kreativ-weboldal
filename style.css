@@ -31,7 +31,8 @@ h1 {
     text-align: center;
     font-style: italic;
     color: #6b5742;
-    margin-top: 8px;
+    margin-top: 12px;
+    font-size: 24px;
 }
 
 .content {
@@ -81,4 +82,18 @@ footer {
     color: #6b5742;
     border-top: 1px solid #b8a27c;
     padding-top: 15px;
+}
+
+.crest {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 15px auto 0;
+    pointer-events: none
+}
+
+html, body {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
 }
