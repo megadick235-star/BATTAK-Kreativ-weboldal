@@ -89,11 +89,50 @@ footer {
     width: 200px;
     height: auto;
     margin: 15px auto 0;
-    pointer-events: none
+    pointer-events: none;
 }
 
 html, body {
     overflow: hidden;
     height: 100%;
     margin: 0;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+    html, body {
+        overflow-y: auto;
+        height: auto;
+    }
+
+    .container {
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    .crest {
+        width: 140px;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 25px;
+    }
+
+    .links a,
+    .links .box {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
